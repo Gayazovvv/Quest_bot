@@ -1,4 +1,4 @@
-import telebgitot
+import telebot
 import json
 
 
