@@ -1,0 +1,100 @@
+{
+  "locations": {
+    "start": {
+      "description": "Ахилл находится дома. Дверь ведет на улицу",
+      "options": {
+        "выйти на улицу": {
+          "to_location": "house",
+          "experience": 1,
+          "path_to_image": "kandinsky-download-1705772430285.png"
+        }
+      }
+    },
+    "house": {
+      "description": "Ахиллес - сын пелея, вышел на улицу. Вокруг него все незнакомо",
+      "options": {
+        "исследовать подворотню": {
+          "to_location": "локация2",
+          "experience": 1,
+          "path_to_image": "kandinsky-download-1705773125522.png"
+        },
+        "пойти в парк": {
+          "to_location": "локация3",
+          "experience": 1,
+          "path_to_image": "kandinsky-download-1705946281895.png"
+        }
+      }
+    },
+    "локация2": {
+      "description": "Если вы думали что на Ахилла нападут бандиты, спешу вас разочеровать, мальчик нашел интересную книгу",
+      "options": {
+        "продолжить исследование": {
+          "to_location": "локация4",
+          "experience": 1,
+          "path_to_image": "kandinsky-download-1705773405669.png"
+        },
+        "вернуться на улицу": {
+          "to_location": "house",
+          "experience": 1,
+          "path_to_image": "kandinsky-download-1705772430285.png"
+        }
+      }
+    },
+    "локация3": {
+      "description": "Ахилл оказался в парке, где было много детей",
+      "options": {
+        "присоединиться к игре": {
+          "to_location": "локация5",
+          "experience": 1,
+          "path_to_image": "kandinsky-download-1705955679098.png"
+        },
+        "вернуться на улицу": {
+          "to_location": "house",
+          "experience": 1,
+          "path_to_image": "kandinsky-download-1705772430285.png"
+        }
+      }
+    },
+    "локация4": {
+      "description": "Книга была про старый язык программирования, Ахиллес захотел углубиться в изучение программирования",
+      "options": {
+        "удалить все игры и заняться программированием": {
+          "to_location": "локация6",
+          "experience": 1,
+          "path_to_image": "kandinsky-download-1705943113236.png"
+        }
+      }
+    },
+    "локация5": {
+      "description": "Ахиллес поиграл с детьми",
+      "options": {
+        "продолжить играть в компьютер": {
+          "to_location": "house",
+          "experience": 1,
+          "path_to_image": "kandinsky-download-1705943010804.png"
+        },
+        "подружиться с мальчиком, который все время говорил про какие-то программы": {
+          "to_location": "локация6",
+          "experience": 1,
+          "path_to_image": "kandinsky-download-1705943113236.png"
+        }
+      }
+    },
+    "локация6": {
+      "description": "Ахиллес удалил все игры с компьютера и начал изучать программирование",
+      "path_to_image": "kandinsky-download-1705943113236.png",
+      "options": {
+      }
+    }
+  },
+  "локация7": {
+    "description": "Ахилл опять начал играть в игры, по 25 часов в день.",
+    "path_to_image": "kandinsky-download-1705943010804.png",
+    "options": {
+    }
+  }
+}
+
+
+
+

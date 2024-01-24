@@ -1,0 +1,19 @@
+{
+  "locations": [
+    {
+      "location1": 1,
+      "description": "Мальльчик дома. Выходит на улицу.",
+      "illustration": "дом.png",
+      "options": {
+        "выйти на улицу": "location2"
+      }
+    },
+    {
+      "location2": "деревня",
+      "description": "Мальчик в деревне",
+      "illustration": "дереывня.png",
+      "options": {
+        "выйти на улу": "location2"
+      }
+      ]
+    }
